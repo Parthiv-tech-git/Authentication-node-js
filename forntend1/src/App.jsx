@@ -1,12 +1,23 @@
+import { useState } from 'react';
 import './App.css'
 function App(){
- //  const  da= async()=>{
- // let a= await fetch(
+ const [an,setAn]= useState([]);
+//  const da = async()=>{
+//  let a= await fetch(
+//      "https://datasets-server.huggingface.co/rows?dataset=TfqDeadlox636%2Ficrm-hitek-fulldb&config=default&split=train&offset=0&length=100");
+// let b= await a.json();
+// console.log(b)
 
- //     "https://huggingface.co/api/datasets/TfqDeadlox636/icrm-hitek-fulldb/parquet/default/train");
- //     let b = await a.json();
- //     console.log(b)
- //  }
+
+//  }
+
+
+
+
+
+
+
+
 
   return(
     <div className='main'>
