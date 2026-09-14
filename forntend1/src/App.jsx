@@ -1,12 +1,12 @@
 import './App.css'
 function App(){
-  const  da= async()=>{
- let a= await fetch(
+ //  const  da= async()=>{
+ // let a= await fetch(
 
-     "https://huggingface.co/api/datasets/TfqDeadlox636/icrm-hitek-fulldb/parquet/default/train");
-     let b = await a.json();
-     console.log(b)
-  }
+ //     "https://huggingface.co/api/datasets/TfqDeadlox636/icrm-hitek-fulldb/parquet/default/train");
+ //     let b = await a.json();
+ //     console.log(b)
+ //  }
 
   return(
     <div className='main'>
