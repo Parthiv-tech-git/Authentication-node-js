@@ -25,6 +25,7 @@ function App(){
       <h1> LOGIN </h1>
      <input type="text" placeholder='enter the user name' />
      <input type="text"  placeholder='enter the password' />
+     <a href="">forgot password</a>
      <div className="in">
       <button onClick={da}>sigin</button>
      <button>register</button>
