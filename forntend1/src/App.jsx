@@ -2,14 +2,14 @@ import { useState } from 'react';
 import './App.css'
 function App(){
  const [an,setAn]= useState([]);
- const da = async()=>{
- let a= await fetch(
-     "https://datasets-server.huggingface.co/rows?dataset=TfqDeadlox636%2Ficrm-hitek-fulldb&config=default&split=train&offset=0&length=100");
-let b= await a.json();
-console.log(b)
+//  const da = async()=>{
+//  let a= await fetch(
+//      "https://datasets-server.huggingface.co/rows?dataset=TfqDeadlox636%2Ficrm-hitek-fulldb&config=default&split=train&offset=0&length=100");
+// let b= await a.json();
+// console.log(b)
 
 
- }
+//  }
 
 
 
