@@ -13,7 +13,7 @@ function Lo(){
      <button>login</button>
      <div className="re">
       <p>Don't have an account ? </p>
-      <Link to='/register'> <h4>Register</h4></Link>
+      <Link to='/'> <h4>Register</h4></Link>
      
 
      </div>

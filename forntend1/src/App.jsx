@@ -7,6 +7,7 @@ import { Routes, Route } from "react-router-dom";
 
 function App(){
  const [an,setAn]= useState([]);
+ 
 
 
 
@@ -21,8 +22,8 @@ function App(){
   
 
     <Routes>
-      <Route path='/' element={<Lo/>} />
-       <Route path='/register' element={<Re/>} />
+      <Route path='/login' element={<Lo/>} />
+       <Route path='/' element={<Re/>} />
     </Routes>
 
      </div>
