@@ -39,12 +39,12 @@ else{
  <div className="co">
 <div className="mainco">
       <h1> Register </h1>
-     <input type="text" placeholder='Name' value={det.name}  onChange={(e)=>{setDet({...det,name:e.target.value})}} />
-     <input type="email"  placeholder='Email' value={det.email} onChange={(e)=>{setDet({...det,email:e.target.value})}} />
-     <input type="text"  placeholder=' creaete a password' value={det.password} onChange={(e)=>{setDet({...det,password:e.target.value})}} />
-     <input type="text"  placeholder=' conform  the  password' value={det.password1} onChange={(e)=>{setDet({...det,password1:e.target.value})}} />
+     <input type="text" placeholder='Name' value={det.name}  onChange={(e)=>{setDet({...det,name:e.target.value})}} required />
+     <input type="email"  placeholder='Email' value={det.email} onChange={(e)=>{setDet({...det,email:e.target.value})}}  required/>
+     <input type="text"  placeholder=' creaete a password' value={det.password} onChange={(e)=>{setDet({...det,password:e.target.value})}} required/>
+     <input type="text"  placeholder=' conform  the  password' value={det.password1} onChange={(e)=>{setDet({...det,password1:e.target.value})}} required />
 
-     <input type="number"  placeholder='phone no'  value={det.phone} onChange={(e)=>{setDet({...det,phone:e.target.value})}}/>
+     <input type="number"  placeholder='phone no'  value={det.phone} onChange={(e)=>{setDet({...det,phone:e.target.value})}} required/>
 
      <button onClick={s}>sign up</button>
      <div className="re">
